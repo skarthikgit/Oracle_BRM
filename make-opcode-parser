@@ -1,0 +1,8 @@
+CC = cc 
+
+opcodegen : opcodegen.o
+	cc -o opcodegen opcodegen.o -ll
+
+clean :
+	rm opcodegen opcodegen.o core opcodegen.c
+
